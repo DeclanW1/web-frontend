@@ -11,8 +11,8 @@ function ServicesCard({
   title,
   text,
   titleClass = "",
-  paragraphClass = "text-neutral-600",
-  linkClass = "text-neutral-600",
+  paragraphClass = "text-black",
+  linkClass = "text-black",
 }: {
   bgClass?: string;
   src: string;
@@ -77,8 +77,8 @@ const CARDS: Array<{
     alt: "Managed Print Services logo",
     title: "Managed Print Services",
     titleClass: "text-[#F4207B]",
-    paragraphClass: "text-neutral-600",
-    linkClass: "text-[#F4207B]",
+    paragraphClass: "text-black",
+    linkClass: "text-black",
   },
   {
     key: "docs",
@@ -87,8 +87,8 @@ const CARDS: Array<{
     alt: "Document Management logo",
     title: "Document Management",
     titleClass: "text-[#F4207B]",
-    paragraphClass: "text-neutral-600",
-    linkClass: "text-[#F4207B]",
+    paragraphClass: "text-black",
+    linkClass: "text-black",
   },
   {
     key: "comms",
@@ -97,8 +97,8 @@ const CARDS: Array<{
     alt: "Communications logo",
     title: "Communications",
     titleClass: "text-[#F4207B]",
-    paragraphClass: "text-neutral-600",
-    linkClass: "text-[#F4207B]",
+    paragraphClass: "text-black",
+    linkClass: "text-black",
   },
 ];
 

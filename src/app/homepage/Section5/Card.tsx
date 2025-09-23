@@ -27,12 +27,12 @@ export default function Card({
       </div>
 
       {/* Title for each card */}
-      <h3 className="font-sans mt-4 text-sm font-semibold text-neutral-900 leading-tight min-h-[40px] flex items-center justify-center">
+      <h3 className="font-sans mt-4 text-sm font-semibold text-black leading-tight min-h-[40px] flex items-center justify-center">
         {title}
       </h3>
 
       {/* Text for each card */}
-      <p className="font-mono mt-2 text-xs text-neutral-600 max-w-[240px] leading-relaxed min-h-[60px]">
+      <p className="font-mono mt-2 text-xs text-black max-w-[240px] leading-relaxed min-h-[60px]">
         {text}
       </p>
     </div>

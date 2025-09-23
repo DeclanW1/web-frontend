@@ -7,20 +7,15 @@ export default function Intro() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
         {/*Layout of grid- text on the left and image on the right*/}
-        <div className="relative grid gap-10 min-h-[100svh] items-center
-                        lg:grid-cols-[0.62fr_0.38fr] xl:grid-cols-[0.6fr_0.4fr]">
-
+        <div className="relative grid gap-10 min-h-[100svh] items-center lg:grid-cols-[0.62fr_0.38fr] xl:grid-cols-[0.6fr_0.4fr]">
 
           {/*Title + paragraph */}
           <div className="pl-4 sm:pl-6 md:pl-8 lg:pr-6 pt-0">
-            <h1 className="font-sans font-bold text-white
-                           text-[48px] sm:text-[64px] lg:text-[72px]
-                           leading-[0.95] tracking-[-0.01em]">
+            <h1 className="font-sans font-bold text-white text-[48px] sm:text-[64px] lg:text-[72px] leading-[0.95] tracking-[-0.01em]">
                 We make your<br /> <span className="whitespace-nowrap">IT work easy.</span>
             </h1>
 
-            <p className="font-mono font-normal text-base text-white
-                          mt-6 leading-[1.55] tracking-[0.001em] max-w-none">
+            <p className="font-mono font-normal text-base text-white mt-6 leading-[1.55] tracking-[0.001em] max-w-none">
               Recognising your frustrations with your{" "}
               <span className="whitespace-nowrap">print environment,</span>
               <br className="hidden lg:block" />
