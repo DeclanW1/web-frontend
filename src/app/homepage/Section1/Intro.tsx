@@ -7,7 +7,7 @@ export default function Intro() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
         {/*Layout of grid- text on the left and image on the right*/}
-        <div className="relative grid gap-10 min-h-[100svh] items-center lg:grid-cols-[0.62fr_0.38fr] xl:grid-cols-[0.6fr_0.4fr]">
+        <div className="relative grid gap-10 min-h-[100svh] items-center lg:grid-cols-[0.62fr_0.38fr] xl:grid-cols-[0.6fr_0.4fr] pt-20 sm:pt-24 md:pt-28">
 
           {/*Title + paragraph */}
           <div className="pl-4 sm:pl-6 md:pl-8 lg:pr-6 pt-0">
@@ -27,7 +27,7 @@ export default function Intro() {
 
           {/* Image on the right*/}
           <div className="flex justify-center items-center">
-            <div className="relative w-[85%] md:h-96 lg:h-[28rem]">
+            <div className="relative w-[85%] h-64 md:h-96 lg:h-[28rem]">
               <Image
                 src="/introimage.png"
                 alt="Computer and router image"
@@ -40,3 +40,4 @@ export default function Intro() {
       </div>
   );
 }
+
