@@ -10,7 +10,7 @@ export default function Background({ children }: { children: ReactNode }) {
 
         {/* Geometrics fixed to the bottom right corner */}
         <div className="absolute bottom-[-16px] right-0 z-20">
-          <div className="relative h-[60vw] w-[60vw] sm:h-[520px] sm:w-[520px] md:h-[640px] md:w-[640px] lg:h-[730px] lg:w-[730px]">
+          <div className="relative h-[200vw] w-[200vw] sm:h-[520px] sm:w-[520px] md:h-[640px] md:w-[640px] lg:h-[730px] lg:w-[730px]">
             <Image
               src="/geometric/geometric1.png"
               alt="geometric1"
